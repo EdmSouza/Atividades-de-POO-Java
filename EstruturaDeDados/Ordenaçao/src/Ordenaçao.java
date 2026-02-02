@@ -11,7 +11,7 @@ Escreva um método main que teste os métodos anteriores.
 
 import java.util.*;
 
-public class Ordenar{ //Defino uma classe qualquer
+public class Ordenaçao{ //Defino uma classe qualquer
 
     public static List<String> listar(String nome){ //implemento um método estático(isto é, uma instancia de classe e nao de obj)
         List<String> lista = new ArrayList<>(); //passo como argumento do método uma String, e por ser um array dinamico a lista expandirá sozinha

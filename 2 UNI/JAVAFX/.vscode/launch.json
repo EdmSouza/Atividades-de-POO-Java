@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "com.example/com.example.App",
+      "projectName": "paint"
+    },
+    {
+      "type": "java",
+      "name": "example/PainControl",
+      "request": "launch",
+      "mainClass": "com.example/PainControl",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Run JavaFX",
+      "request": "launch",
+      "mainClass": "PainControl",
+      "vmArgs": "--module-path \"C:/javafx/lib\" --add-modules javafx.controls"
+    }
+  ]
+}
